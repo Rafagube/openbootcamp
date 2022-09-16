@@ -1,0 +1,62 @@
+package Ejercicio1;
+
+public class practicaTema4 {
+	
+	public static void main(String[] args) {
+		
+		
+		int numerolf = 5;
+		int numeroWhile = -1;
+		var estacion = "OTONO";
+		
+		if (numerolf > 0) {
+			System.out.println("La variable es Positiva");
+			
+		} else if (numerolf < 0) {
+			System.out.println("La variable es negativa");
+		
+		} else {
+			System.out.println("La variable es 0");
+		}
+
+		
+		while (numeroWhile < 3) {
+			numeroWhile++;
+			System.out.println("Iteracion While en " + numeroWhile);
+			
+		}	
+			
+		
+		do {
+			numeroWhile = numeroWhile + 6;
+		}	while (numeroWhile < 3 );
+			System.out.println("Solo entra una vez en bucle. " + numeroWhile + " > 3");
+		
+			//Despues del buble Do While la variable numeroWhile 
+			//es 9 debido al los sumatorios del bucle While.
+			
+		for (int numeroFor = 0; numeroFor <= 3; numeroFor ++ ) {	
+			System.out.println("Iteracion bucle for esta en " + numeroFor);
+			
+		}
+		
+		switch (estacion) {
+			case "PRIMAVERA":
+				System.out.println("La estacion actual es primavera");
+				break;
+			case "OTONO":
+				System.out.println("La estacion actual es otono");
+				break;
+			case "INVIERNO":
+				System.out.println("La estacion actual es invierno");
+				break;
+			case "VERANO":
+				System.out.println("La estacion actual es verano");	
+				break;
+			default:
+				System.out.println("No es una estacion");
+		}
+		
+	}
+	
+}	
