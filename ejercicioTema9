@@ -1,0 +1,52 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Cliente cliente = new Cliente();
+        Trabajador trabajador = new Trabajador();
+    }
+}
+
+class Persona {
+
+    int edad;
+    String nombre;
+    int telefono;
+
+}
+
+class Cliente extends Persona{
+
+    String credito;
+
+    public Cliente(){
+
+        edad = 50;
+        nombre = "Paco";
+        telefono = 123456789;
+        credito = "5000Euros";
+
+        System.out.println("Edad cliente " + edad);
+        System.out.println("Nombre cliente " + nombre);
+        System.out.println("Telefono cliente " + telefono);
+        System.out.println("Credito cliente " + credito);
+    }
+}
+
+class Trabajador extends Persona{
+
+    String salario;
+
+    public Trabajador(){
+
+        edad = 35;
+        nombre = "Lisa";
+        telefono = 111222333;
+        salario = "1500Euros";
+
+        System.out.println("Edad trabajador " + edad);
+        System.out.println("Nombre trabajador " + nombre);
+        System.out.println("Telefono trabajador " + telefono);
+        System.out.println("Salario trabajador " + salario);
+    }
+
+}
