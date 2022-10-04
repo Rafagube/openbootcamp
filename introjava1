@@ -1,0 +1,20 @@
+package com.proyecto;
+
+public class HolaOpenbootcamp {
+	
+	public static void main (String[] args) {
+		
+		int numero = 5;
+		long numeroLargo = 9999999;
+		double decimal = 3.9;
+		boolean falso = false;
+		String hola = "Hola a todos";
+		
+		System.out.println(numero);
+		System.out.println(numeroLargo);
+		System.out.println(decimal);
+		System.out.println(falso);
+		System.out.println(hola);
+	}
+
+}
