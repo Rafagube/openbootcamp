@@ -1,0 +1,20 @@
+package com.proyecto;
+
+public class proyectoIVA {
+	
+		public static void main (String [] args) {
+		
+			System.out.println(calculoIva());
+	
+	}
+
+	static double calculoIva() {
+		
+		final double iva = 1.21;
+		double precio = 250;
+		
+		return precio * iva;
+		
+	}
+	
+}
