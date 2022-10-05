@@ -1,0 +1,17 @@
+package com.proyecto;
+
+public class Concatenar {
+	
+	public static void main (String[] args) {
+		
+		String[] textos = {"Coche", "Moto", "Bici", "Patinete"};
+		
+		for(int i = 0; i < textos.length; i++) {
+			
+			System.out.print(textos[i] + " ");
+		
+			
+		}
+	}
+
+}
